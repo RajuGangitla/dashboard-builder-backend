@@ -10,3 +10,5 @@ async def query_handler():
         return {"message":"heelo world"}
     except Exception as e:
         raise HTTPException(status_code=500,detail=str(e))
+    
+
